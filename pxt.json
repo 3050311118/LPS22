@@ -1,0 +1,18 @@
+{
+    "name": "LPS22",
+    "version": "1.0.0",
+    "description": "ST LPS22 Pressure Sensor I2C extension for makecode.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "_locales/zh/LPS22-strings.json",
+        "LPS22.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
