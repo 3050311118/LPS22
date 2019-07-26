@@ -16,7 +16,7 @@ basic.forever(function () {
 ```
 
 **Note**
-altitude() function is always zero because MakeCode power function error ([see issue #2192](https://github.com/microsoft/pxt-microbit/issues/2192))! It will be available after microsoft fixed it.
+Because MakeCode power function error ([see issue #2192](https://github.com/microsoft/pxt-microbit/issues/2192))! So altitude() use approximate calculation method instaed.
 
 ## License
 
