@@ -144,7 +144,7 @@ namespace LPS22 {
     }
 
     // power function approximate calculation for (1+x)^n, x~0
-    export function apow(x: number, n: number): number {
+    function apow(x: number, n: number): number {
         let d = x - 1
         return 1 + (n * d) + (n * (n - 1) * d * d) / 2
     }
